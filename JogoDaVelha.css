@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;  
+}
+
+.box-primary {
+    width: 100vw;
+    height: 100vh;
+    background: #201b2c;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.right-box {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.right-box > h1 {
+    color: #00ff88;
+    margin: 0;
+}
+
+.right-box > h2 {
+    font-size: large;
+    margin: 20px;
+    color: #f0ffffde;
+    margin-bottom: 10px;
+}
+
+.right-box > button {
+    padding: 8px 10px;
+}
+
+.left-box {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-box > h1 {
+    color: #77ffc0;
+}
+
+.left-box-img {
+    width: 35vw;
+}
+
+.game-box {
+    display: grid;
+    justify-content: space-around;
+    justify-items: center;
+    grid-template-columns: repeat(3, auto);
+    width: 310px;
+    margin: 10px auto;
+    padding: 3px;
+    background: #2f2841;
+    border-radius: 10px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.cell {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    font-family: "Arial";
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 0 2px #77ffc0;
+    border: 1px solid #282137;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 80px;  
+    border-radius: 5px;  
+}
+
+.game--restart {
+    width: 45%;
+    height: auto;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #2b134b;
+    background: #00ff88;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+}
+
+.game--restart:hover{
+    background: transparent;
+    border: 0px solid #2f2841;
+    box-shadow: 0 0 10px 0 #2f2841 inset,
+                0 0 10px 4px #799be6;
+    border-radius: 10px;
+    color: #00ff88;
+}
